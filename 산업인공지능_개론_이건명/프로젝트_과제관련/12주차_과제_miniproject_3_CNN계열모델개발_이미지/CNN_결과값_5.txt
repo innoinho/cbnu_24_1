@@ -1,0 +1,128 @@
+Found 284 images belonging to 3 classes.
+Found 69 images belonging to 3 classes.
+Epoch 1/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 74s 4s/step - accuracy: 0.3666 - loss: 1.0942 - val_accuracy: 0.3913 - val_loss: 1.0639
+Epoch 2/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 60s 2s/step - accuracy: 0.3636 - loss: 1.0839 - val_accuracy: 0.3913 - val_loss: 1.0163
+Epoch 3/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 60s 2s/step - accuracy: 0.4559 - loss: 1.0267 - val_accuracy: 0.5797 - val_loss: 0.8781
+Epoch 4/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 61s 2s/step - accuracy: 0.5167 - loss: 0.9211 - val_accuracy: 0.6812 - val_loss: 0.7938
+Epoch 5/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 60s 2s/step - accuracy: 0.5935 - loss: 0.8121 - val_accuracy: 0.7101 - val_loss: 0.5726
+Epoch 6/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 60s 2s/step - accuracy: 0.6670 - loss: 0.7004 - val_accuracy: 0.6812 - val_loss: 0.5253
+Epoch 7/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 60s 2s/step - accuracy: 0.6570 - loss: 0.6315 - val_accuracy: 0.6232 - val_loss: 0.5409
+Epoch 8/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 60s 2s/step - accuracy: 0.6596 - loss: 0.6442 - val_accuracy: 0.7826 - val_loss: 0.7034
+Epoch 9/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 59s 2s/step - accuracy: 0.6484 - loss: 0.6663 - val_accuracy: 0.7826 - val_loss: 0.6406
+Epoch 10/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 60s 2s/step - accuracy: 0.7017 - loss: 0.5729 - val_accuracy: 0.7681 - val_loss: 0.5393
+Epoch 11/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 59s 2s/step - accuracy: 0.7367 - loss: 0.5543 - val_accuracy: 0.7826 - val_loss: 0.4385
+Epoch 12/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 59s 2s/step - accuracy: 0.7232 - loss: 0.5801 - val_accuracy: 0.7681 - val_loss: 0.4764
+Epoch 13/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 58s 2s/step - accuracy: 0.7468 - loss: 0.5437 - val_accuracy: 0.8116 - val_loss: 0.4415
+Epoch 14/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 59s 2s/step - accuracy: 0.6841 - loss: 0.5799 - val_accuracy: 0.7536 - val_loss: 0.4818
+Epoch 15/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 59s 2s/step - accuracy: 0.6857 - loss: 0.6050 - val_accuracy: 0.7826 - val_loss: 0.4651
+Epoch 16/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 59s 2s/step - accuracy: 0.8023 - loss: 0.4887 - val_accuracy: 0.7971 - val_loss: 0.4175
+Epoch 17/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 71s 3s/step - accuracy: 0.7780 - loss: 0.5095 - val_accuracy: 0.8261 - val_loss: 0.4040
+Epoch 18/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 73s 3s/step - accuracy: 0.7772 - loss: 0.4886 - val_accuracy: 0.8116 - val_loss: 0.3816
+Epoch 19/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 73s 3s/step - accuracy: 0.7902 - loss: 0.4655 - val_accuracy: 0.8551 - val_loss: 0.3317
+Epoch 20/20
+9/9 ━━━━━━━━━━━━━━━━━━━━ 74s 3s/step - accuracy: 0.8870 - loss: 0.3887 - val_accuracy: 0.8841 - val_loss: 0.2674
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+Training Accuracy: 0.8802816867828369
+Validation Accuracy: 0.8840579986572266
+3/3 ━━━━━━━━━━━━━━━━━━━━ 15s 4s/step - accuracy: 0.8795 - loss: 0.2761
+Loaded Model Test Loss: 0.2824532091617584
+Loaded Model Test Accuracy: 0.8840579986572266
+
+2024-05-31 10:21:48.207004: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:21:59.018940: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:22:09.756005: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:22:20.535240: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:22:59.954616: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:23:10.187449: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:23:21.126839: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:23:32.020650: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:23:59.748955: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:24:10.632798: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:24:21.492764: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:24:32.370731: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:25:00.800899: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:25:11.687435: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:25:21.819487: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:25:33.275384: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:26:02.183677: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:26:13.056366: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:26:23.904585: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:26:34.232800: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:27:01.953105: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:27:12.805276: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:27:23.637215: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:27:34.463564: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:28:02.034903: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:28:12.914248: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:28:23.745101: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:28:34.607280: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:29:03.017615: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:29:13.142587: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:29:23.990574: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:29:34.891984: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:30:02.272270: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:30:12.987783: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:30:23.639776: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:30:34.292212: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:31:02.533996: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:31:13.373336: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:31:23.540959: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:31:34.422585: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:32:02.859071: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:32:13.541182: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:32:24.155149: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:32:34.206127: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:33:06.407843: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 3 of 8
+2024-05-31 10:33:22.139094: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:33:32.677407: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:34:00.658997: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:34:11.180584: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:34:21.676348: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:34:31.576243: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:34:58.911718: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:35:09.078712: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:35:19.673668: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:35:30.362643: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:35:57.578697: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:36:08.191820: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:36:18.864550: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:36:29.521008: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:36:57.904952: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:37:18.130979: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 10:37:28.309152: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:37:57.695279: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:38:09.841158: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:38:29.503863: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 7 of 8
+2024-05-31 10:38:36.186814: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:39:10.670987: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:39:23.184666: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:39:43.074590: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 7 of 8
+2024-05-31 10:39:49.588671: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:40:23.958315: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:40:37.069597: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:40:56.765202: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 7 of 8
+2024-05-31 10:41:02.458144: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 10:41:37.015112: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 10:41:49.705917: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 10:42:09.591534: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:268: Filling up shuffle buffer (this may take a while): 7 of 8
+2024-05-31 10:42:16.344331: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.

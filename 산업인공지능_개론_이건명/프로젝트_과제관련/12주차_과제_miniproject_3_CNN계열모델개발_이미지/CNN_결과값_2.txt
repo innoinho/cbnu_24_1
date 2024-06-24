@@ -1,0 +1,148 @@
+runfile('C:/Users/sct/untitled3.py', wdir='C:/Users/sct')
+Found 353 images belonging to 3 classes.
+Found 353 images belonging to 3 classes.
+C:\Users\sct\anaconda3\Lib\site-packages\keras\src\layers\convolutional\base_conv.py:107: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+Epoch 1/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 117s 8s/step - accuracy: 0.3289 - loss: 1.1413 - val_accuracy: 0.6193 - val_loss: 0.8530
+Epoch 2/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step - accuracy: 0.5312 - loss: 0.9479 - val_accuracy: 0.0000e+00 - val_loss: 1.1024
+Epoch 3/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 105s 7s/step - accuracy: 0.6473 - loss: 0.8013 - val_accuracy: 0.7159 - val_loss: 0.6006
+Epoch 4/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6875 - loss: 0.6603 - val_accuracy: 1.0000 - val_loss: 0.6820
+Epoch 5/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 109s 8s/step - accuracy: 0.6810 - loss: 0.7298 - val_accuracy: 0.7131 - val_loss: 0.4943
+Epoch 6/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6250 - loss: 0.5909 - val_accuracy: 1.0000 - val_loss: 0.8506
+Epoch 7/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 115s 7s/step - accuracy: 0.6892 - loss: 0.5500 - val_accuracy: 0.7301 - val_loss: 0.7905
+Epoch 8/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.5938 - loss: 0.7469 - val_accuracy: 1.0000 - val_loss: 6.1958e-04
+Epoch 9/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 107s 7s/step - accuracy: 0.6014 - loss: 0.6917 - val_accuracy: 0.6989 - val_loss: 0.5081
+Epoch 10/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 7ms/step - accuracy: 0.7500 - loss: 0.5038 - val_accuracy: 1.0000 - val_loss: 0.0021
+Epoch 11/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 109s 7s/step - accuracy: 0.7212 - loss: 0.4956 - val_accuracy: 0.7983 - val_loss: 0.4342
+Epoch 12/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.6562 - loss: 0.6274 - val_accuracy: 1.0000 - val_loss: 0.5492
+Epoch 13/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 105s 7s/step - accuracy: 0.6802 - loss: 0.5525 - val_accuracy: 0.8040 - val_loss: 0.4728
+Epoch 14/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.6562 - loss: 0.5336 - val_accuracy: 1.0000 - val_loss: 0.6200
+Epoch 15/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 107s 7s/step - accuracy: 0.7231 - loss: 0.4796 - val_accuracy: 0.8438 - val_loss: 0.3958
+Epoch 16/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 11ms/step - accuracy: 0.7500 - loss: 0.3782 - val_accuracy: 1.0000 - val_loss: 1.1921e-07
+Epoch 17/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 131s 9s/step - accuracy: 0.7715 - loss: 0.4756 - val_accuracy: 0.8324 - val_loss: 0.4145
+Epoch 18/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.8750 - loss: 0.3545 - val_accuracy: 1.0000 - val_loss: 9.5367e-07
+Epoch 19/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 136s 9s/step - accuracy: 0.8593 - loss: 0.3327 - val_accuracy: 0.8466 - val_loss: 0.4479
+Epoch 20/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 8ms/step - accuracy: 0.8125 - loss: 0.4986 - val_accuracy: 1.0000 - val_loss: 5.9605e-07
+Epoch 21/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 126s 8s/step - accuracy: 0.7847 - loss: 0.4731 - val_accuracy: 0.8551 - val_loss: 0.3308
+Epoch 22/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 5ms/step - accuracy: 0.7812 - loss: 0.4308 - val_accuracy: 1.0000 - val_loss: 0.4327
+Epoch 23/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 121s 8s/step - accuracy: 0.7879 - loss: 0.4395 - val_accuracy: 0.8665 - val_loss: 0.3565
+Epoch 24/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 6ms/step - accuracy: 0.8438 - loss: 0.4109 - val_accuracy: 1.0000 - val_loss: 2.2862e-04
+Epoch 25/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 124s 8s/step - accuracy: 0.8130 - loss: 0.3987 - val_accuracy: 0.8750 - val_loss: 0.3263
+Epoch 26/100
+11/11 ━━━━━━━━━━━━━━━━━━━━ 0s 10ms/step - accuracy: 0.8750 - loss: 0.3482 - val_accuracy: 1.0000 - val_loss: 0.0018
+
+2024-05-31 02:22:29.642903: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 3 of 8
+2024-05-31 02:22:48.508787: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 7 of 8
+2024-05-31 02:22:53.145196: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:24:10.093815: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:24:10.124134: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:24:24.324191: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 3 of 8
+2024-05-31 02:24:43.339707: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:25:55.656853: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:25:55.671031: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:26:09.800318: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 3 of 8
+2024-05-31 02:26:28.757760: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:27:44.711417: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:27:44.734064: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:27:59.741031: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 3 of 8
+2024-05-31 02:28:09.792368: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 5 of 8
+2024-05-31 02:28:25.517403: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:29:40.013195: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:29:40.043062: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:29:50.612103: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 02:30:10.136282: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 02:30:15.450734: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:31:27.502401: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:31:27.541822: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:31:41.679657: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 3 of 8
+2024-05-31 02:32:00.704878: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 7 of 8
+2024-05-31 02:32:05.782526: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:33:16.957855: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:33:16.979791: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:33:31.142163: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 3 of 8
+2024-05-31 02:33:50.093548: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:35:02.358763: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:35:02.417204: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:35:16.630831: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 3 of 8
+2024-05-31 02:35:35.662561: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:36:49.411884: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:36:49.482239: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:37:00.620631: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 02:37:12.623467: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 02:37:25.362157: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 7 of 8
+2024-05-31 02:37:31.527679: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:39:00.544991: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:39:00.594725: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:39:13.631778: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 02:39:26.482543: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 02:39:46.425662: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:41:16.481422: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:41:16.525243: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:41:28.185671: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 02:41:49.103335: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 02:42:00.770927: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:43:23.367544: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:43:23.383375: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:43:34.237568: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 02:43:44.854422: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 02:43:56.268312: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 02:44:07.660880: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:45:24.949909: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:45:24.973061: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:45:36.542615: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 2 of 8
+2024-05-31 02:45:47.803442: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 4 of 8
+2024-05-31 02:45:59.108044: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:450] ShuffleDatasetV3:41: Filling up shuffle buffer (this may take a while): 6 of 8
+2024-05-31 02:46:04.959279: I tensorflow/core/kernels/data/shuffle_dataset_op.cc:480] Shuffle buffer filled.
+2024-05-31 02:47:29.435301: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
+2024-05-31 02:47:29.495753: W tensorflow/core/framework/local_rendezvous.cc:404] Local rendezvous is aborting with status: OUT_OF_RANGE: End of sequence
+	 [[{{node IteratorGetNext}}]]
